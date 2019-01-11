@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "builtin-effect-font",
+  "_objFlags": 0,
+  "_native": "",
+  "techniques": [
+    {
+      "queue": 2,
+      "lod": 0,
+      "passes": [
+        {
+          "stage": 1,
+          "depthTest": true,
+          "depthWrite": false,
+          "blend": true,
+          "blendEq": 32774,
+          "blendSrc": 1,
+          "blendDst": 771,
+          "blendAlphaEq": 32774,
+          "blendSrcAlpha": 1,
+          "blendDstAlpha": 771,
+          "program": "a253ae96fbd9c4251121c718fb57f2698a59f59e5e961130fc4f752f"
+        }
+      ],
+      "priority": 0
+    }
+  ],
+  "properties": {
+    "mainTexture": {
+      "type": 13,
+      "value": null
+    }
+  },
+  "shaders": [
+    {
+      "vert": "\n\nattribute vec3 a_position;\nuniform mat4 _model;\nuniform mat4 _viewProj;\n\nattribute vec2 a_uv0;\nattribute vec4 a_color;\nvarying vec2 uv0;\nvarying vec4 color;\n\nvec4 vert () {\n  vec4 pos = vec4(a_position, 1);\n\n  pos = _viewProj * _model * pos;\n\n  uv0 = a_uv0;\n\n  color = a_color;\n\n  return pos;\n}\n\nvoid main() { gl_Position = vert(); }\n",
+      "frag": "\n\nuniform sampler2D mainTexture;\nvarying vec2 uv0;\nvarying vec4 color;\n\nvec4 frag () {\n  vec4 o = vec4(1, 1, 1, 1);\n\n  o *= texture2D(mainTexture, uv0);\n  o *= color;\n\n  return o;\n}\n\nvoid main() { gl_FragColor = frag(); }\n",
+      "defines": [],
+      "uniforms": [
+        {
+          "name": "mainTexture",
+          "type": 13,
+          "defines": []
+        }
+      ],
+      "attributes": [
+        {
+          "name": "a_position",
+          "type": 6,
+          "defines": []
+        },
+        {
+          "name": "a_uv0",
+          "type": 5,
+          "defines": []
+        },
+        {
+          "name": "a_color",
+          "type": 7,
+          "defines": []
+        }
+      ],
+      "extensions": [],
+      "name": "a253ae96fbd9c4251121c718fb57f2698a59f59e5e961130fc4f752f"
+    }
+  ]
+}

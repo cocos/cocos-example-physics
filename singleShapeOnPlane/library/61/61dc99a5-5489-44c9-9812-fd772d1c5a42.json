@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "builtin-effect-skybox",
+  "_objFlags": 0,
+  "_native": "",
+  "techniques": [
+    {
+      "queue": 0,
+      "lod": 200,
+      "passes": [
+        {
+          "stage": 1,
+          "cullMode": 0,
+          "program": "c4056e849fac08f88d82336386873a650bc636f4349623fecbf96c52"
+        }
+      ],
+      "priority": -1000
+    }
+  ],
+  "properties": {
+    "cubeMap": {
+      "type": 14,
+      "value": null
+    }
+  },
+  "shaders": [
+    {
+      "vert": "\n  attribute vec3 a_position;\n\n  uniform mat4 _view;\n  uniform mat4 _proj;\n\n  varying vec3 viewDir;\n\n  void main() {\n    mat4 rotView = mat4(mat3(_view));\n    vec4 clipPos = _proj * rotView * vec4(a_position, 1.0);\n\n    gl_Position = clipPos.xyww;\n    viewDir = a_position;\n  }\n",
+      "frag": "\n  varying vec3 viewDir;\n\n  uniform samplerCube cubeMap;\n  \n\n\n\nvec3 gammaToLinearSpaceRGB(vec3 sRGB) { \n  return sRGB * (sRGB * (sRGB * 0.305306011 + 0.682171111) + 0.012522878);\n}\n\nvec3 linearToGammaSpaceRGB(vec3 RGB) { \n  vec3 S1 = sqrt(RGB);\n  vec3 S2 = sqrt(S1);\n  vec3 S3 = sqrt(S2);\n  return 0.585122381 * S1 + 0.783140355 * S2 - 0.368262736 * S3;\n}\n\nvec4 gammaToLinearSpaceRGBA(vec4 sRGBA) {\n  return vec4(gammaToLinearSpaceRGB(sRGBA.rgb), sRGBA.a);\n}\n\nvec4 linearToGammaSpaceRGBA(vec4 RGBA) {\n  return vec4(linearToGammaSpaceRGB(RGBA.rgb), RGBA.a);\n}\n\n\nfloat gammaToLinearSpaceExact(float val) {\n  if (val <= 0.04045) {\n    return val / 12.92;\n  } else if (val < 1.0) {\n    return pow((val + 0.055) / 1.055, 2.4);\n  } else {\n    return pow(val, 2.2);\n  }\n}\n\nfloat linearToGammaSpaceExact(float val) {\n  if (val <= 0.0) {\n    return 0.0;\n  } else if (val <= 0.0031308) {\n    return 12.92 * val;\n  } else if (val < 1.0) {\n    return 1.055 * pow(val, 0.4166667) - 0.055;\n  } else {\n    return pow(val, 0.45454545);\n  }\n}\n  \n\nvec3 unpackNormal(vec4 nmap) {\n  return nmap.xyz * 2.0 - 1.0;\n}\n\nvec3 unpackRGBE(vec4 rgbe) {\n    return rgbe.rgb * pow(2.0, rgbe.a * 255.0 - 128.0);\n}\n\n  void main() {\n  #if USE_RGBE_CUBEMAP\n      vec3 c = unpackRGBE(textureCube(cubeMap, viewDir));\n      c = linearToGammaSpaceRGB(c / (1.0 + c));\n      gl_FragColor = vec4(c, 1.0);\n  #else\n      gl_FragColor = textureCube(cubeMap, viewDir);\n  #endif\n  }\n",
+      "defines": [
+        {
+          "name": "USE_RGBE_CUBEMAP",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "uniforms": [
+        {
+          "name": "cubeMap",
+          "type": 14,
+          "defines": []
+        }
+      ],
+      "attributes": [
+        {
+          "name": "a_position",
+          "type": 6,
+          "defines": []
+        }
+      ],
+      "extensions": [],
+      "name": "c4056e849fac08f88d82336386873a650bc636f4349623fecbf96c52"
+    }
+  ]
+}
