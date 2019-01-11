@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let RecyclePool = require('./recyclePool');
+        let _stageInfos = new RecyclePool(
+            () => {return {stage: null, items: null}},
+            8);
+        console.log(_stageInfos);
+    </script>
+</body>
+</html>

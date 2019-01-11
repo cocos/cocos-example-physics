@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_defines": {
+    "USE_EMISSIVE": true,
+    "USE_SPECULAR": true
+  },
+  "_props": {
+    "diffuseColor": {
+      "__type__": "cc.Color",
+      "r": 229,
+      "g": 229,
+      "b": 23,
+      "a": 1
+    }
+  },
+  "_effectAsset": {
+    "__uuid__": "0504e5ab-d2a3-4c79-bba0-2aed51da577e"
+  }
+}

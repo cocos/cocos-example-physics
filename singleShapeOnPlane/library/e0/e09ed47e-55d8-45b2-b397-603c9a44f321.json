@@ -1,0 +1,81 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "builtin-effect-simple",
+  "_objFlags": 0,
+  "_native": "",
+  "techniques": [
+    {
+      "queue": 0,
+      "passes": [
+        {
+          "stage": 1,
+          "depthTest": true,
+          "depthWrite": true,
+          "program": "ca2c66032e834150d3ec9caf7b1ec38e844a12d6601725b10ff47104"
+        }
+      ],
+      "priority": 0
+    }
+  ],
+  "properties": {
+    "color": {
+      "type": 9,
+      "value": [
+        0.4,
+        0.4,
+        0.4,
+        1
+      ]
+    }
+  },
+  "shaders": [
+    {
+      "vert": "\n  attribute vec3 a_position;\n\n  uniform mat4 _model;\n  uniform mat4 _viewProj;\n\n  #if USE_TEXTURE\n    attribute vec2 a_uv0;\n    varying vec2 uv0;\n  #endif\n\n  void main () {\n    vec4 pos = _viewProj * _model * vec4(a_position, 1);\n\n    #if USE_TEXTURE\n      uv0 = a_uv0;\n    #endif\n\n    gl_Position = pos;\n  }\n",
+      "frag": "\n  #if USE_TEXTURE\n    uniform sampler2D texture;\n    varying vec2 uv0;\n  #endif\n\n  #if USE_COLOR\n    uniform vec4 color;\n  #endif\n\n  void main () {\n    vec4 o = vec4(1, 1, 1, 1);\n\n    #if USE_TEXTURE\n      o *= texture2D(texture, uv0);\n    #endif\n\n    #if USE_COLOR\n      o *= color;\n    #endif\n\n    if (!gl_FrontFacing) {\n      o.rgb *= 0.5;\n    }\n\n    gl_FragColor = o;\n  }\n",
+      "defines": [
+        {
+          "name": "USE_TEXTURE",
+          "type": "boolean",
+          "defines": []
+        },
+        {
+          "name": "USE_COLOR",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "uniforms": [
+        {
+          "name": "texture",
+          "type": 13,
+          "defines": [
+            "USE_TEXTURE"
+          ]
+        },
+        {
+          "name": "color",
+          "type": 7,
+          "defines": [
+            "USE_COLOR"
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "name": "a_position",
+          "type": 6,
+          "defines": []
+        },
+        {
+          "name": "a_uv0",
+          "type": 5,
+          "defines": [
+            "USE_TEXTURE"
+          ]
+        }
+      ],
+      "extensions": [],
+      "name": "ca2c66032e834150d3ec9caf7b1ec38e844a12d6601725b10ff47104"
+    }
+  ]
+}
