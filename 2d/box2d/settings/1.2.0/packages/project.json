@@ -1,0 +1,34 @@
+{
+  "physics": {
+    "collisionMatrix": {
+      "0": 5,
+      "1": 4,
+      "2": 3
+    },
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "platform"
+      },
+      {
+        "index": 2,
+        "name": "actor"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "name": "platform",
+      "value": 1
+    },
+    {
+      "name": "actor",
+      "value": 2
+    }
+  ],
+  "__version__": "1.0.1",
+  "script": {
+    "useDefineForClassFields": false,
+    "allowDeclareFields": false
+  }
+}
