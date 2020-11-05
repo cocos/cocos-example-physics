@@ -17,12 +17,12 @@ export class GravityAnims extends Component {
         
         this.node.children.forEach((c, index) => {
             tween(c)
-                .to(1, {
+                .to(2, {
                     position: new Vec3(Math.cos(angleStep * index), Math.sin(angleStep * index), 0).multiplyScalar(150),
                     eulerAngles: new Vec3(0, 0, 720)
                 })
                 .delay(0.5)
-                .to(1, {
+                .to(2, {
                     position: Vec3.ZERO,
                     eulerAngles: new Vec3(0, 0, 0)
                 })
@@ -32,7 +32,8 @@ export class GravityAnims extends Component {
         })
     }
 
-    // update (deltaTime: number) {
-    //     // Your update function goes here.
-    // }
+    update (deltaTime: number) {
+        // Your update function goes here.
+        var a = 1;
+    }
 }
