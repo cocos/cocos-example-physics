@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.1",
+  "ver": "4.0.2",
   "importer": "typescript",
   "imported": true,
   "uuid": "83038df0-9cb6-4b08-ba04-a510915e7556",
@@ -11,6 +11,6 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/cases/hittest.js",
-    "importerSettings": 0
+    "importerSettings": 4
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.1",
+  "ver": "4.0.2",
   "importer": "typescript",
   "imported": true,
   "uuid": "5c2d73af-c216-4b0f-8b44-db7d1fcbb718",
@@ -11,6 +11,6 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/cases/tag.js",
-    "importerSettings": 0
+    "importerSettings": 4
   }
 }
