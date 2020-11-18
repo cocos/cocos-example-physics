@@ -53,20 +53,20 @@ export class CuttingObjects extends Component {
         this.r2.length = 0;
         this.results.length = 0;
 
-        this.touchStartPoint.set(event.getLocation());
-        this.touchPoint.set(event.getLocation());
+        this.touchStartPoint.set(event.getUILocation());
+        this.touchPoint.set(event.getUILocation());
     }
 
     onTouchMove (event: Touch) {
-        this.touchPoint.set(event.getLocation());
+        this.touchPoint.set(event.getUILocation());
     }
 
     onTouchEnd (event: Touch) {
-        this.touchPoint.set(event.getLocation());
+        this.touchPoint.set(event.getUILocation());
         this.recalcResults();
         this.touching = false;
 
-        if (equals(Vec2.squaredDistance(this.touchStartPoint, event.getLocation()), 0)) return;
+        if (equals(Vec2.squaredDistance(this.touchStartPoint, event.getUILocation()), 0)) return;
 
         // recalculate fraction, make fraction from one direction
         this.r2.forEach(r => {

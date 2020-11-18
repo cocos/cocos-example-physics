@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.1",
+  "ver": "4.0.2",
   "importer": "typescript",
   "imported": true,
   "uuid": "7329b384-26e8-444b-bf0c-8840ef84e9ad",
@@ -11,6 +11,6 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/cases/demo/raycast-reflection.js",
-    "importerSettings": 0
+    "importerSettings": 7
   }
 }

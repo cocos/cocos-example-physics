@@ -11,7 +11,7 @@ export class Hittst extends Component {
     }
 
     onTouchStart (event: Touch) {
-        let res = PhysicsSystem2D.instance.testPoint(event.getLocation());
+        let res = PhysicsSystem2D.instance.testPoint(event.getUILocation());
         this.lastResults = res.concat([]);
         res.forEach(c => {
             let s = c.getComponent(SpriteComponent);

@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.1",
+  "ver": "4.0.2",
   "importer": "typescript",
   "imported": true,
   "uuid": "1c5028c5-128f-49a6-981c-a886809862a6",
@@ -11,6 +11,6 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/cases/demo/gravity.js",
-    "importerSettings": 0
+    "importerSettings": 7
   }
 }

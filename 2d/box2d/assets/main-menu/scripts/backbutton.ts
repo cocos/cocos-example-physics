@@ -1,9 +1,17 @@
-import { _decorator, ButtonComponent, Component, director, game, Node, ScrollViewComponent, Vec3, LayoutComponent } from 'cc';
-const { ccclass, property } = _decorator;
+import { _decorator, ButtonComponent, Component, director, game, Node, ScrollViewComponent, Vec3, LayoutComponent, LabelComponent } from 'cc';
+const { ccclass, type } = _decorator;
 import { sceneArray } from './scenelist';
 
 @ccclass('BackButton')
 export class BackButton extends Component {
+
+    @type(LabelComponent)
+    title: LabelComponent | null = null;
+
+    private static _instance: BackButton | null = null;
+    static get instance () {
+        return this._instance;
+    }
 
     public static get offset () {
         return BackButton._offset;
@@ -33,6 +41,8 @@ export class BackButton extends Component {
             BackButton._prevNode.active = true;
             BackButton._nextNode.active = true;
         }
+
+        BackButton.instance!.updateTitle();
     }
     private static _offset = new Vec3();
     private static _scrollCom: ScrollViewComponent | null = null;
@@ -43,6 +53,8 @@ export class BackButton extends Component {
     private static _nextNode: Node;
 
     public __preload () {
+        BackButton._instance = this;
+
         const sceneInfo = game._sceneInfos;
         let firstIndex = 0;
         let lastIndex = 0;
@@ -112,6 +124,22 @@ export class BackButton extends Component {
             (BackButton._sceneIndex + 1) >= sceneArray.length ? BackButton._sceneIndex = 0 : BackButton._sceneIndex += 1;
         }else {
             (BackButton._sceneIndex - 1) < 0 ? BackButton._sceneIndex = sceneArray.length - 1 : BackButton._sceneIndex -= 1;
+        }
+
+        this.updateTitle();
+    }
+
+    public updateTitle () {
+        if (BackButton._sceneIndex === -1) {
+            if (BackButton.instance!.title) {
+                BackButton.instance!.title.node.active = false;
+                BackButton.instance!.title.string = '';
+            }
+        } else {
+            if (BackButton.instance!.title) {
+                BackButton.instance!.title.node.active = true;
+                BackButton.instance!.title.string = BackButton.instance!.getSceneName();
+            }
         }
     }
 

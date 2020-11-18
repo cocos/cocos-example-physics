@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.1",
+  "ver": "4.0.2",
   "importer": "typescript",
   "imported": true,
   "uuid": "a77ea030-9c67-4ce9-a287-808eaabf89bb",
@@ -11,6 +11,6 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/cases/contact-results.js",
-    "importerSettings": 0
+    "importerSettings": 4
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.1",
+  "ver": "4.0.2",
   "importer": "typescript",
   "imported": true,
   "uuid": "c9a33ddc-7ed6-488d-9ed3-420b1f0ec703",
@@ -11,6 +11,6 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/cases/physics-setting.js",
-    "importerSettings": 0
+    "importerSettings": 7
   }
 }
