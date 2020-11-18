@@ -1,16 +1,17 @@
 {
-  "ver": "4.0.3",
+  "ver": "4.0.9",
   "importer": "typescript",
   "imported": true,
-  "uuid": "b20ed616-639a-4ca3-abfd-9efa57c03b1b",
+  "uuid": "36664fe7-8fde-4156-9cf4-f4b3bf6c42be",
   "files": [
     ".js",
+    "editor.js",
     ".trans"
   ],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/main-menu/scripts/backbutton.js",
+    "moduleId": "project:///assets/cases/shape.js",
     "importerSettings": 4
   }
 }

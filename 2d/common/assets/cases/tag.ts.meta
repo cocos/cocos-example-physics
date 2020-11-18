@@ -1,16 +1,17 @@
 {
-  "ver": "4.0.3",
+  "ver": "4.0.9",
   "importer": "typescript",
   "imported": true,
-  "uuid": "dfb24d20-524e-45cc-b256-dbe19b1c946f",
+  "uuid": "5c2d73af-c216-4b0f-8b44-db7d1fcbb718",
   "files": [
     ".js",
+    "editor.js",
     ".trans"
   ],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/main-menu/scripts/listitem.js",
+    "moduleId": "project:///assets/cases/tag.js",
     "importerSettings": 4
   }
 }

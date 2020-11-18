@@ -1,16 +1,17 @@
 {
-  "ver": "4.0.3",
+  "ver": "4.0.9",
   "importer": "typescript",
   "imported": true,
-  "uuid": "56ce0300-7432-47da-a05e-c3232e4d09d6",
+  "uuid": "83038df0-9cb6-4b08-ba04-a510915e7556",
   "files": [
     ".js",
+    "editor.js",
     ".trans"
   ],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/main-menu/scripts/scenelist.js",
+    "moduleId": "project:///assets/cases/hittest.js",
     "importerSettings": 4
   }
 }
