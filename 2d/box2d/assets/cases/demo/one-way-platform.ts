@@ -15,7 +15,7 @@ export class OneWayPlatform extends Component {
         collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
     }
 
-    onBeginContact (contact, selfCollider: Collider2D, otherCollider: Collider2D) {
+    onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact) {
         let otherBody = otherCollider.body;
         let platformBody = selfCollider.body;
 

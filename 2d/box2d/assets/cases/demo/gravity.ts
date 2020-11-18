@@ -23,11 +23,11 @@ export class Gravity extends Component {
         PhysicsSystem2D.instance.gravity = this.originGravity;
     }
  
-    onBeginContact (contact, selfCollider, otherCollider) {
+    onBeginContact (selfCollider, otherCollider, contact) {
         this.bodies.push(otherCollider.body);
     }
  
-    onEndContact (contact, selfCollider, otherCollider) {
+    onEndContact (selfCollider, otherCollider, contact) {
         let index = this.bodies.indexOf(otherCollider.body);
         if (index !== -1) {
             this.bodies.splice(index, 1);

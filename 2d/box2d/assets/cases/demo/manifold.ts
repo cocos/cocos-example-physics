@@ -18,7 +18,7 @@ export class Manifold extends Component {
     //     // Your update function goes here.
     // }
 
-    onPreSolve (contact: any) {
+    onPreSolve (selfCollider, otherCollider, contact: any) {
         let worldManifold = contact.getWorldManifold();
         let points = worldManifold.points;
  
