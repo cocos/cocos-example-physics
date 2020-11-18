@@ -19,6 +19,12 @@
       "Graphcis API": {
         "value": true
       },
+      "Intersection 2D": {
+        "value": true
+      },
+      "Particle 2D": {
+        "value": true
+      },
       "Particle System": {
         "value": true
       },
@@ -30,7 +36,13 @@
         "option": "1",
         "value": true
       },
+      "Spine": {
+        "value": true
+      },
       "Terrain": {
+        "value": true
+      },
+      "TiledMap": {
         "value": true
       },
       "Tween": {
@@ -39,10 +51,16 @@
       "UI": {
         "value": true
       },
+      "VideoPlayer": {
+        "value": true
+      },
       "WebGL 1.0": {
         "value": true
       },
       "WebGL 2.0": {
+        "value": true
+      },
+      "WebView": {
         "value": true
       }
     },
@@ -65,7 +83,11 @@
       "terrain",
       "tiled-map",
       "spine"
-    ]
+    ],
+    "noDeprecatedFeatures": {
+      "value": false,
+      "version": ""
+    }
   },
   "__version__": "1.0.3"
 }
