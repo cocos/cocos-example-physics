@@ -5813,7 +5813,7 @@
     },
     "fileId": "4bVChS7I1OG5Ravi6+P5fJ",
     "sync": false,
-    "_synced": true
+    "_synced": {}
   },
   {
     "__type__": "cc.UITransform",
@@ -5848,7 +5848,7 @@
     "__prefab": null,
     "_priority": 0,
     "_targetTexture": null,
-    "_clearFlag": 0,
+    "_clearFlag": 7,
     "_color": {
       "__type__": "cc.Color",
       "r": 0,
