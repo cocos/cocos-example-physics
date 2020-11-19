@@ -11,7 +11,7 @@
   "modules": {
     "cache": {
       "Audio": {
-        "value": true
+        "value": false
       },
       "Core": {
         "value": true
@@ -23,27 +23,27 @@
         "value": true
       },
       "Particle 2D": {
-        "value": true
+        "value": false
       },
       "Particle System": {
-        "value": true
+        "value": false
       },
       "Physics": {
         "option": 0,
-        "value": true
+        "value": false
       },
       "Physics 2D": {
         "option": "1",
         "value": true
       },
       "Spine": {
-        "value": true
+        "value": false
       },
       "Terrain": {
-        "value": true
+        "value": false
       },
       "TiledMap": {
-        "value": true
+        "value": false
       },
       "Tween": {
         "value": true
@@ -52,7 +52,7 @@
         "value": true
       },
       "VideoPlayer": {
-        "value": true
+        "value": false
       },
       "WebGL 1.0": {
         "value": true
@@ -61,7 +61,7 @@
         "value": true
       },
       "WebView": {
-        "value": true
+        "value": false
       }
     },
     "includeModules": [
@@ -69,20 +69,10 @@
       "gfx-webgl",
       "gfx-webgl2",
       "ui",
-      "particle",
-      "physics-cannon",
-      "physics-framework",
       "physics-2d-builtin",
       "physics-2d-framework",
       "intersection-2d",
-      "particle-2d",
-      "audio",
-      "video",
-      "webview",
-      "tween",
-      "terrain",
-      "tiled-map",
-      "spine"
+      "tween"
     ],
     "noDeprecatedFeatures": {
       "value": false,
