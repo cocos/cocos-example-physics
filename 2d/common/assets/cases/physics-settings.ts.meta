@@ -1,16 +1,17 @@
 {
-  "ver": "4.0.3",
+  "ver": "4.0.9",
   "importer": "typescript",
   "imported": true,
-  "uuid": "36664fe7-8fde-4156-9cf4-f4b3bf6c42be",
+  "uuid": "a5c9e07f-b388-4106-9bee-7a6e2ae9c7ed",
   "files": [
     ".js",
+    "editor.js",
     ".trans"
   ],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/cases/shape.js",
+    "moduleId": "project:///assets/cases/physics-settings.js",
     "importerSettings": 4
   }
 }
