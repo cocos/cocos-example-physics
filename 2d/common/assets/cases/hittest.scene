@@ -136,7 +136,7 @@
       "y": 1.5,
       "z": 1
     },
-    "_layer": 1073741824,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -414,7 +414,7 @@
       "y": 10,
       "z": 1
     },
-    "_layer": 1073741824,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -576,7 +576,7 @@
       "y": 10,
       "z": 1
     },
-    "_layer": 1073741824,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -740,7 +740,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": "01AvqiqMFMK4Uan75crn9c"
+    "_id": "6d7G041UVKBIBZAe/ussNf"
   },
   {
     "__type__": "cc.Camera",
@@ -779,9 +779,9 @@
     "_shutter": 7,
     "_iso": 0,
     "_screenScale": 1,
-    "_visibility": -325058561,
+    "_visibility": 42467328,
     "_targetTexture": null,
-    "_id": "a0XX8ZNvRCiaKKsYCNKcDX"
+    "_id": "efdov5sJJGgL5a9r08tjz+"
   },
   {
     "__type__": "cc.UITransform",
@@ -814,17 +814,6 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_priority": 0,
-    "_targetTexture": null,
-    "_clearFlag": 7,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
-      "a": 0
-    },
-    "_renderMode": 0,
     "_cameraComponent": {
       "__id__": 19
     },
