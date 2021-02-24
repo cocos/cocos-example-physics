@@ -78,7 +78,10 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 6
+    }
   },
   {
     "__type__": "cc.RigidBody2D",
@@ -104,7 +107,10 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 7
+    }
   },
   {
     "__type__": "cc.MouseJoint2D",
@@ -129,7 +135,10 @@
     "_frequency": 5,
     "_dampingRatio": 0.7,
     "_maxForce": 1000,
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 8
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -145,5 +154,17 @@
       "default": false,
       "serializable": false
     }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "acZI/H1r9Ipa0nHHg4Corl"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "8bTADRYZRDjLoliWPE0RH4"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "8cK121MFlArbLRkda3qKUp"
   }
 ]
