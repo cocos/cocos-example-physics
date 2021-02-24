@@ -27,7 +27,14 @@
       "borderBottom": 2,
       "borderLeft": 2,
       "borderRight": 2,
-      "subMetas": {}
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
     },
     "6c48a": {
       "importer": "texture",
@@ -58,7 +65,7 @@
       "displayName": "Platform160",
       "id": "f9941",
       "name": "spriteFrame",
-      "ver": "1.0.8",
+      "ver": "1.0.9",
       "imported": true,
       "files": [
         ".json"
@@ -82,7 +89,8 @@
         "borderRight": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "2be04d91-f11a-4380-9d19-f044e72792fa@6c48a",
-        "atlasUuid": ""
+        "atlasUuid": "",
+        "packable": true
       }
     }
   },
