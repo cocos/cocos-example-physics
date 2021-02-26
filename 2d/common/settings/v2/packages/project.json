@@ -13,17 +13,37 @@
       {
         "index": 2,
         "name": "collider"
+      },
+      {
+        "index": 3,
+        "name": "testA"
+      },
+      {
+        "index": 4,
+        "name": "testB"
       }
     ],
     "collisionMatrix": {
       "0": 1,
       "1": 0,
-      "2": 4
+      "2": 4,
+      "3": 16,
+      "4": 8
     }
   },
   "general": {
     "designResolution": {
       "fitHeight": true
     }
-  }
+  },
+  "layer": [
+    {
+      "name": "canvas_18",
+      "value": 262144
+    },
+    {
+      "name": "canvas_19",
+      "value": 524288
+    }
+  ]
 }
