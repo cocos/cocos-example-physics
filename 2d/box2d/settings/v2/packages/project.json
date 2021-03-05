@@ -21,5 +21,15 @@
     "designResolution": {
       "fitHeight": true
     }
-  }
+  },
+  "layer": [
+    {
+      "name": "canvas_18",
+      "value": 262144
+    },
+    {
+      "name": "canvas_19",
+      "value": 524288
+    }
+  ]
 }
