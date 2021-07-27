@@ -583,7 +583,7 @@
     }
   },
   {
-    "__type__": "cc.ShadowInfo",
+    "__type__": "cc.ShadowsInfo",
     "_enabled": false,
     "_near": 1,
     "_far": 30,
