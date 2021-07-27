@@ -5231,7 +5231,7 @@
     "ambient": {
       "__id__": 204
     },
-    "planarShadows": {
+    "shadows": {
       "__id__": 205
     },
     "shadowMap": {
@@ -5263,7 +5263,7 @@
     }
   },
   {
-    "__type__": "cc.PlanarShadowInfo",
+    "__type__": "cc.ShadowsInfo",
     "_enabled": false,
     "_normal": {
       "__type__": "cc.Vec3",
@@ -5281,7 +5281,7 @@
     }
   },
   {
-    "__type__": "cc.ShadowInfo",
+    "__type__": "cc.ShadowsInfo",
     "_enabled": false,
     "_near": 1,
     "_far": 30,
