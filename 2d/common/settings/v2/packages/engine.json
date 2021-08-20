@@ -75,6 +75,7 @@
       "primitive",
       "profiler",
       "tween",
+      "spine",
       "dragon-bones"
     ],
     "noDeprecatedFeatures": {
