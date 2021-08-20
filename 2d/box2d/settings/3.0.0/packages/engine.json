@@ -17,6 +17,7 @@
       "webview",
       "tween",
       "terrain",
+      "spine",
       "tiled-map"
     ]
   },
