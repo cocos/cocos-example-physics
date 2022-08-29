@@ -1,4 +1,4 @@
-import { _decorator, ButtonComponent, Component, director, LabelComponent, Node } from 'cc';
+import { _decorator, Button, Component, director, Label, Node } from 'cc';
 import { BackButton } from './backbutton';
 import { sceneArray } from './scenelist';
 const { ccclass, property } = _decorator;
@@ -8,8 +8,8 @@ export class ListItem extends Component {
 
     public index = -1;
     public _name = '';
-    public label: LabelComponent | null = null;
-    public button: ButtonComponent | null = null;
+    public label: Label | null = null;
+    public button: Button | null = null;
 
     public onload () {
 
@@ -20,8 +20,8 @@ export class ListItem extends Component {
         this.index = this.node.getSiblingIndex();
         this._name = '';
         if (this.node){
-            this.label = this.node.getComponentInChildren(LabelComponent) as LabelComponent;
-            this.button = this.node.getComponent(ButtonComponent) as ButtonComponent;
+            this.label = this.node.getComponentInChildren(Label) as Label;
+            this.button = this.node.getComponent(Button) as Button;
         }
         this.updateItem(this.index, sceneArray[this.index]);
     }
