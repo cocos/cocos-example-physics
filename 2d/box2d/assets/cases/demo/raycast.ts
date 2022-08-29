@@ -1,12 +1,12 @@
-import { _decorator, Component, Node, Vec2, GraphicsComponent, Vec3, ERaycast2DType, PhysicsSystem2D } from 'cc';
+import { _decorator, Component, Node, Vec2, Graphics, Vec3, ERaycast2DType, PhysicsSystem2D } from 'cc';
 const { ccclass, property, type } = _decorator;
 
 @ccclass('Raycast')
 export class Raycast extends Component {
     @property
     radius = 1000;
-    @type(GraphicsComponent)
-    ctx: GraphicsComponent = null;
+    @type(Graphics)
+    ctx: Graphics = null;
 
     angle = 0;
 

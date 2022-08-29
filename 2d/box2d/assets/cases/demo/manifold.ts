@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, tween, SpriteComponent, Color, instantiate, Collider2D, Contact2DType } from 'cc';
+import { _decorator, Component, Node, tween, Sprite, Color, instantiate, Collider2D, Contact2DType } from 'cc';
 const { ccclass, property, type } = _decorator;
 
 @ccclass('Manifold')
@@ -28,7 +28,7 @@ export class Manifold extends Component {
             let node = instantiate(this.pointTemp);
             node.active = true;
  
-            let sprite = node.getComponent(SpriteComponent);
+            let sprite = node.getComponent(Sprite);
             let newColor = new Color(sprite.color);
             newColor.a = 0;
             tween(sprite)
