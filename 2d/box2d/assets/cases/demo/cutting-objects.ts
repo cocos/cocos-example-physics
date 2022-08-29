@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, find, SystemEventType, Graphics, Vec2, Touch, PhysicsSystem2D, ERaycast2DType, RaycastResult2D, Intersection2D, director, RigidBody2D, PolygonCollider2D, Vec3, Input } from 'cc';
+import { _decorator, Component, Node, find, Graphics, Vec2, Touch, PhysicsSystem2D, ERaycast2DType, RaycastResult2D, Intersection2D, director, RigidBody2D, PolygonCollider2D, Vec3, Input } from 'cc';
 const { ccclass, type } = _decorator;
 
 // http://www.emanueleferonato.com/2011/08/05/slicing-splitting-and-cutting-objects-with-box2d-part-4-using-real-graphics/
