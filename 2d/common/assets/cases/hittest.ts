@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, PhysicsSystem2D, Touch, Collider2D, SpriteComponent, Color } from 'cc';
+import { _decorator, Component, Node, PhysicsSystem2D, Touch, Collider2D, Sprite, Color } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Hittst')
@@ -14,7 +14,7 @@ export class Hittst extends Component {
         let res = PhysicsSystem2D.instance.testPoint(event.getUILocation());
         this.lastResults = res.concat([]);
         res.forEach(c => {
-            let s = c.getComponent(SpriteComponent);
+            let s = c.getComponent(Sprite);
             if (s) {
                 s.color = Color.RED;
             }
@@ -23,7 +23,7 @@ export class Hittst extends Component {
 
     onTouchEnd (event: Touch) {
         this.lastResults.forEach(c => {
-            let s = c.getComponent(SpriteComponent);
+            let s = c.getComponent(Sprite);
             if (s) {
                 s.color = Color.WHITE;
             }
