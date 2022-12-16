@@ -11,13 +11,13 @@
  * are sure there is no conflict
  */
 
-import { _decorator, Node, director, Director, game, BaseNode, Canvas, Camera } from 'cc';
+import { _decorator, Node, director, Director, game, Canvas, Camera } from 'cc';
 
 const customLayerMask = 0x000fffff;
 const builtinLayerMask = 0xfff00000;
 
 director.on(Director.EVENT_AFTER_SCENE_LAUNCH, () => {
-    const roots = director.getScene()?.children as BaseNode[];
+    const roots = director.getScene()?.children as Node[];
     let allCanvases = director.getScene()?.getComponentsInChildren(Canvas) as Canvas[];
     if (allCanvases.length <= 1) return;
     allCanvases = allCanvases.filter(x => !!x.cameraComponent);

@@ -11,17 +11,17 @@
  * are sure there is no conflict
  */
 
-import { _decorator, Node, director, Director, game, BaseNode, Canvas, Camera } from 'cc';
+import { _decorator, Node, director, Director, game, Canvas, Camera } from 'cc';
 
 const customLayerMask = 0x000fffff;
 const builtinLayerMask = 0xfff00000;
 
 director.on(Director.EVENT_AFTER_SCENE_LAUNCH, () => {
-    const roots = director.getScene()?.children as BaseNode[];
+    const roots = director.getScene()?.children as Node[];
     let allCanvases = director.getScene()?.getComponentsInChildren(Canvas) as Canvas[];
     if (allCanvases.length <= 1) return;
     allCanvases = allCanvases.filter(x => !!x.cameraComponent);
-    
+
     let allCameras = director.getScene()?.getComponentsInChildren(Camera) as Camera[];
     let usedLayer = 0;
     allCameras.forEach(x => usedLayer |= (x.visibility & customLayerMask));
@@ -47,7 +47,7 @@ director.on(Director.EVENT_AFTER_SCENE_LAUNCH, () => {
     });
 });
 
-function setChildrenLayer (node: Node, layer: number) {
+function setChildrenLayer(node: Node, layer: number) {
     for (let i = 0, l = node.children.length; i < l; i++) {
         node.children[i].layer = layer;
         setChildrenLayer(node.children[i], layer);
@@ -56,7 +56,7 @@ function setChildrenLayer (node: Node, layer: number) {
 
 let setParentEngine = cc.Node.prototype.setParent;
 
-cc.Node.prototype.setParent = function(value, keepWorldTransform) {
+cc.Node.prototype.setParent = function (value, keepWorldTransform) {
     setParentEngine.call(this, value, keepWorldTransform);
     if (!value) return;
     // find canvas
@@ -67,7 +67,7 @@ cc.Node.prototype.setParent = function(value, keepWorldTransform) {
     }
 }
 
-function getCanvasCameraLayer (node: Node) {
+function getCanvasCameraLayer(node: Node) {
     let layer = null;
     let canvas = node.getComponent(Canvas);
     if (canvas && canvas.cameraComponent) {
