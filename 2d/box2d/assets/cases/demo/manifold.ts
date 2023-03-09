@@ -10,7 +10,7 @@ export class Manifold extends Component {
         // Your initialization goes here.
         let collider = this.getComponent(Collider2D);
         if (collider) {
-            collider.on(Contact2DType.PRE_SOLVE, this.onPreSolve, this);
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
     }
 
@@ -18,7 +18,7 @@ export class Manifold extends Component {
     //     // Your update function goes here.
     // }
 
-    onPreSolve (selfCollider, otherCollider, contact: any) {
+    onBeginContact (selfCollider, otherCollider, contact: any) {
         let worldManifold = contact.getWorldManifold();
         let points = worldManifold.points;
  
