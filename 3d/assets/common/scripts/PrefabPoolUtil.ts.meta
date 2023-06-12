@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "6078fb3e-b078-4948-a388-48f163e026de",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/common/scripts/PrefabPoolUtil.js",
+    "simulateGlobals": []
+  }
+}

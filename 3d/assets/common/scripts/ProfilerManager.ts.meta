@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "8a04befe-7b61-4111-abae-98e6cbc187b9",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/common/scripts/ProfilerManager.js",
+    "simulateGlobals": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "macroConfig": {
+    "ENABLE_TILEDMAP_CULLING": true,
+    "TOUCH_TIMEOUT": 5000,
+    "DOWNLOAD_MAX_CONCURRENT": 64,
+    "ENABLE_TRANSPARENT_CANVAS": false,
+    "ENABLE_WEBGL_ANTIALIAS": true,
+    "CLEANUP_IMAGE_CACHE": false,
+    "ENABLE_MULTI_TOUCH": true
+  },
+  "modules": {
+    "cache": {
+      "base": {
+        "_value": true
+      },
+      "graphcis": {
+        "_value": true
+      },
+      "gfx-webgl": {
+        "_value": true
+      },
+      "gfx-webgl2": {
+        "_value": true
+      },
+      "3d": {
+        "_value": true
+      },
+      "2d": {
+        "_value": true
+      },
+      "ui": {
+        "_value": true
+      },
+      "particle": {
+        "_value": true
+      },
+      "physics": {
+        "_value": true,
+        "_option": "physics-physx"
+      },
+      "physics-ammo": {
+        "_value": true
+      },
+      "physics-cannon": {
+        "_value": true
+      },
+      "physics-physx": {
+        "_value": true
+      },
+      "physics-builtin": {
+        "_value": true
+      },
+      "physics-2d": {
+        "_value": false,
+        "_option": "physics-2d-box2d"
+      },
+      "physics-2d-box2d": {
+        "_value": true
+      },
+      "physics-2d-builtin": {
+        "_value": true
+      },
+      "intersection-2d": {
+        "_value": false
+      },
+      "primitive": {
+        "_value": true
+      },
+      "profiler": {
+        "_value": true
+      },
+      "particle-2d": {
+        "_value": false
+      },
+      "audio": {
+        "_value": false
+      },
+      "video": {
+        "_value": false
+      },
+      "webview": {
+        "_value": false
+      },
+      "tween": {
+        "_value": true
+      },
+      "terrain": {
+        "_value": true
+      },
+      "tiled-map": {
+        "_value": false
+      },
+      "spine": {
+        "_value": false
+      },
+      "dragon-bones": {
+        "_value": false
+      },
+      "marionette": {
+        "_value": true
+      },
+      "dragonbones": {
+        "_value": false
+      },
+      "gfx": {
+        "_value": true
+      }
+    },
+    "includeModules": [
+      "2d",
+      "3d",
+      "base",
+      "gfx-webgl",
+      "gfx-webgl2",
+      "marionette",
+      "particle",
+      "physics-physx",
+      "primitive",
+      "profiler",
+      "terrain",
+      "tween",
+      "ui"
+    ],
+    "noDeprecatedFeatures": {
+      "value": false,
+      "version": ""
+    },
+    "flags": {}
+  },
+  "__version__": "1.0.5"
+}

@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "e2af18e1-613b-4d61-8f0e-cb672968e7e2",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/common/scripts/EmitBullet.js",
+    "simulateGlobals": []
+  }
+}
