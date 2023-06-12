@@ -20,7 +20,6 @@
   - common: the projects that both the builtin and box2d physics modules need to test (the 2D physics module in the project configuration is set to builtin by default)
 
 - The 3d folder corresponds to the 3D physics project
-Files or folders in the assets:
   - cases: functional testing
   - common: common resources
   - demo: case demonstration
