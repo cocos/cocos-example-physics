@@ -1,0 +1,156 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "76563dac-7b68-4f3f-a880-d1be43e5a601",
+  "files": [],
+  "subMetas": {
+    "44034": {
+      "ver": "1.1.1",
+      "importer": "gltf-mesh",
+      "name": "001.mesh",
+      "id": "44034",
+      "displayName": "",
+      "uuid": "76563dac-7b68-4f3f-a880-d1be43e5a601@44034",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 117
+      }
+    },
+    "3bd65": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "76563dac-7b68-4f3f-a880-d1be43e5a601@3bd65",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "externalURI": "file:///D:/Github/Cocos/example-3d/simple-car-game/temp/asset-db/assets/fbx2gltf-76563dac-7b68-4f3f-a880-d1be43e5a601/out/road03.jpg",
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "displayName": "",
+      "id": "3bd65",
+      "name": "road03.jpg.image"
+    },
+    "bc797": {
+      "ver": "1.0.22",
+      "importer": "texture",
+      "name": "贴图 #8.texture",
+      "id": "bc797",
+      "displayName": "",
+      "uuid": "76563dac-7b68-4f3f-a880-d1be43e5a601@bc797",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ffc02252-433c-4574-a4d7-0152d2b83db8"
+      }
+    },
+    "530d1": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "name": "Material #103.material",
+      "id": "530d1",
+      "displayName": "",
+      "uuid": "76563dac-7b68-4f3f-a880-d1be43e5a601@530d1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "77f73": {
+      "importer": "gltf-scene",
+      "uuid": "76563dac-7b68-4f3f-a880-d1be43e5a601@77f73",
+      "displayName": "",
+      "id": "77f73",
+      "name": "road05.prefab",
+      "ver": "1.0.13",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "normals": 0,
+    "tangents": 1,
+    "dumpMaterials": false,
+    "redirect": "76563dac-7b68-4f3f-a880-d1be43e5a601@77f73",
+    "assetFinder": {
+      "meshes": [
+        "76563dac-7b68-4f3f-a880-d1be43e5a601@44034"
+      ],
+      "textures": [
+        "76563dac-7b68-4f3f-a880-d1be43e5a601@bc797"
+      ],
+      "materials": [
+        "76563dac-7b68-4f3f-a880-d1be43e5a601@530d1"
+      ],
+      "scenes": [
+        "76563dac-7b68-4f3f-a880-d1be43e5a601@77f73"
+      ],
+      "skeletons": []
+    },
+    "imageMetas": [
+      {
+        "name": "road03.jpg",
+        "remap": "ffc02252-433c-4574-a4d7-0152d2b83db8",
+        "uri": "76563dac-7b68-4f3f-a880-d1be43e5a601@3bd65"
+      }
+    ],
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "mountAllAnimationsOnPrefab": true,
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

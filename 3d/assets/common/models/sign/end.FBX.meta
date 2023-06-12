@@ -1,0 +1,140 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "73c15f5f-8227-413d-a25d-c4844b6c4e87",
+  "files": [],
+  "subMetas": {
+    "b8a2d": {
+      "ver": "1.1.1",
+      "importer": "gltf-mesh",
+      "name": "Plane001.mesh",
+      "id": "b8a2d",
+      "displayName": "",
+      "uuid": "73c15f5f-8227-413d-a25d-c4844b6c4e87@b8a2d",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      }
+    },
+    "9defe": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "uuid": "73c15f5f-8227-413d-a25d-c4844b6c4e87@9defe",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "displayName": "",
+      "id": "9defe",
+      "name": "贴图 #8.image"
+    },
+    "bc797": {
+      "ver": "1.0.22",
+      "importer": "texture",
+      "name": "贴图 #8.texture",
+      "id": "bc797",
+      "displayName": "",
+      "uuid": "73c15f5f-8227-413d-a25d-c4844b6c4e87@bc797",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e1873d82-7bb1-4553-ae0a-710d91e9299d"
+      }
+    },
+    "5eade": {
+      "importer": "gltf-scene",
+      "uuid": "73c15f5f-8227-413d-a25d-c4844b6c4e87@5eade",
+      "displayName": "",
+      "id": "5eade",
+      "name": "end.prefab",
+      "ver": "1.0.13",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "normals": 0,
+    "tangents": 1,
+    "dumpMaterials": true,
+    "redirect": "73c15f5f-8227-413d-a25d-c4844b6c4e87@5eade",
+    "assetFinder": {
+      "meshes": [
+        "73c15f5f-8227-413d-a25d-c4844b6c4e87@b8a2d"
+      ],
+      "textures": [
+        "73c15f5f-8227-413d-a25d-c4844b6c4e87@bc797"
+      ],
+      "materials": [
+        "ce4f24a4-7a7e-4042-95dd-5b2c75b82c4e"
+      ],
+      "scenes": [
+        "73c15f5f-8227-413d-a25d-c4844b6c4e87@5eade"
+      ],
+      "skeletons": []
+    },
+    "imageMetas": [
+      {
+        "name": "贴图 #8",
+        "remap": "e1873d82-7bb1-4553-ae0a-710d91e9299d",
+        "uri": "73c15f5f-8227-413d-a25d-c4844b6c4e87@9defe"
+      }
+    ],
+    "legacyFbxImporter": true,
+    "materialDumpDir": "db://assets/common/models/sign/Materials_end",
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "mountAllAnimationsOnPrefab": true,
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}
