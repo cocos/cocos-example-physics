@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "e3046b5e-97a0-45d6-8567-6ecd4561d373",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/demo/simple-car/scripts/debug/DebugCamera.js",
+    "simulateGlobals": []
+  }
+}
