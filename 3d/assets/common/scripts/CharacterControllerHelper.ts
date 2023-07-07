@@ -11,7 +11,7 @@ export class CharacterControllerHelper extends Component {
     private _CapsuleCCT : Node = null!;
     private _slopeLimitComp : Component = null!;
     private _stepOffsetComp : Component = null!;
-    private _contactOffsetComp : Component = null!;
+    private _SkinWidthComp : Component = null!;
     private _scaleComp : Component = null!;
     private _descComp : Component = null!;
 
@@ -28,8 +28,8 @@ export class CharacterControllerHelper extends Component {
         const stepOffsetNode = this.node.scene.getChildByName('Canvas')!.getChildByName('最大台阶高度')!;
         this._stepOffsetComp = stepOffsetNode.getChildByName('最大台阶高度数值')!.getComponent(LabelComponent)!;
 
-        const contactOffsetNode = this.node.scene.getChildByName('Canvas')!.getChildByName('接触间隙')!;
-        this._contactOffsetComp = contactOffsetNode.getChildByName('接触间隙数值')!.getComponent(LabelComponent)!;
+        const skinWidthNode = this.node.scene.getChildByName('Canvas')!.getChildByName('皮肤宽度')!;
+        this._SkinWidthComp = skinWidthNode.getChildByName('皮肤宽度数值')!.getComponent(LabelComponent)!;
 
         const scaleNode = this.node.scene.getChildByName('Canvas')!.getChildByName('节点缩放')!;
         this._scaleComp = scaleNode.getChildByName('节点缩放数值')!.getComponent(LabelComponent)!;
@@ -81,9 +81,9 @@ export class CharacterControllerHelper extends Component {
     
     onChangeCCTContactOffset(customEventData:any) {
         const value = customEventData._progress * 0.2;
-        this._CapsuleCCT!.getComponent(CharacterController)!.contactOffset = value;
-        this._BoxCCT!.getComponent(CharacterController)!.contactOffset = value;
-        (this._contactOffsetComp as LabelComponent).string = value.toFixed(2);
+        this._CapsuleCCT!.getComponent(CharacterController)!.skinWidth = value;
+        this._BoxCCT!.getComponent(CharacterController)!.skinWidth = value;
+        (this._SkinWidthComp as LabelComponent).string = value.toFixed(2);
     }
 
     onChangeCCTNodeScale(customEventData:any) {

@@ -3,6 +3,7 @@
     "__type__": "cc.SceneAsset",
     "_name": "case-character-controller",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_native": "",
     "scene": {
       "__id__": 1
@@ -12,6 +13,7 @@
     "__type__": "cc.Scene",
     "_name": "case-character-controller",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": null,
     "_children": [
       {
@@ -102,6 +104,7 @@
     "__type__": "cc.Node",
     "_name": "Main Light",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -146,6 +149,7 @@
     "__type__": "cc.DirectionalLight",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 2
     },
@@ -196,6 +200,7 @@
     "__type__": "cc.Node",
     "_name": "Camera",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -246,6 +251,7 @@
     "__type__": "cc.Camera",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 5
     },
@@ -291,6 +297,7 @@
     "__type__": "83969PIqqtCzpmwWOBT+ujw",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 5
     },
@@ -306,6 +313,7 @@
     "__type__": "6ca8eAS0jtMp4jGSLwSoDa4",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 5
     },
@@ -317,6 +325,7 @@
     "__type__": "cc.Node",
     "_name": "Canvas",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -401,6 +410,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -448,6 +458,7 @@
     "__type__": "cc.UITransform",
     "_name": "Label<UITransform>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 10
     },
@@ -469,6 +480,7 @@
     "__type__": "cc.Label",
     "_name": "Label<Label>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 10
     },
@@ -507,6 +519,7 @@
     "__type__": "cc.Node",
     "_name": "Desc",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -557,6 +570,7 @@
     "__type__": "cc.UITransform",
     "_name": "das<UITransform>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 13
     },
@@ -564,8 +578,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 307.85,
-      "height": 110.76
+      "width": 307.8515625,
+      "height": 110.75999999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -578,6 +592,7 @@
     "__type__": "cc.Label",
     "_name": "das<Label>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 13
     },
@@ -616,6 +631,7 @@
     "__type__": "cc.Widget",
     "_name": "das<Widget>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 13
     },
@@ -625,7 +641,7 @@
     "_target": {
       "__id__": 9
     },
-    "_left": 33.18000000000001,
+    "_left": 33.17921875000002,
     "_right": 0,
     "_top": 0,
     "_bottom": 1,
@@ -647,6 +663,7 @@
     "__type__": "cc.Node",
     "_name": "测试说明",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -697,6 +714,7 @@
     "__type__": "cc.UITransform",
     "_name": "das<UITransform>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 17
     },
@@ -704,7 +722,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 584,
+      "width": 583.998046875,
       "height": 240.76
     },
     "_anchorPoint": {
@@ -718,6 +736,7 @@
     "__type__": "cc.Label",
     "_name": "das<Label>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 17
     },
@@ -756,6 +775,7 @@
     "__type__": "cc.Widget",
     "_name": "das<Widget>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 17
     },
@@ -765,7 +785,7 @@
     "_target": {
       "__id__": 9
     },
-    "_left": 385.53999999999996,
+    "_left": 385.54097656249996,
     "_right": 0,
     "_top": 0,
     "_bottom": 1,
@@ -787,6 +807,7 @@
     "__type__": "cc.Node",
     "_name": "CCTType",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -838,6 +859,7 @@
     "__type__": "cc.Node",
     "_name": "CCTType",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 21
     },
@@ -889,6 +911,7 @@
     "__type__": "cc.Node",
     "_name": "Toggle1",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 22
     },
@@ -943,6 +966,7 @@
     "__type__": "cc.Node",
     "_name": "Checkmark",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 23
     },
@@ -990,6 +1014,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 24
     },
@@ -1011,6 +1036,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 24
     },
@@ -1049,6 +1075,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 23
     },
@@ -1070,6 +1097,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 23
     },
@@ -1108,6 +1136,7 @@
     "__type__": "cc.Toggle",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 23
     },
@@ -1181,6 +1210,7 @@
     "__type__": "cc.Node",
     "_name": "Toggle2",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 22
     },
@@ -1235,6 +1265,7 @@
     "__type__": "cc.Node",
     "_name": "Checkmark",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 31
     },
@@ -1282,6 +1313,7 @@
     "__type__": "cc.UITransform",
     "_name": "Checkmark<UITransformComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 32
     },
@@ -1303,6 +1335,7 @@
     "__type__": "cc.Sprite",
     "_name": "Checkmark<SpriteComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 32
     },
@@ -1341,6 +1374,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 31
     },
@@ -1362,6 +1396,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 31
     },
@@ -1400,6 +1435,7 @@
     "__type__": "cc.Toggle",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 31
     },
@@ -1473,6 +1509,7 @@
     "__type__": "cc.ToggleContainer",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 22
     },
@@ -1486,6 +1523,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 21
     },
@@ -1507,6 +1545,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 21
     },
@@ -1545,6 +1584,7 @@
     "__type__": "cc.Node",
     "_name": "最大爬坡角度",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -1599,6 +1639,7 @@
     "__type__": "cc.Node",
     "_name": "最大爬坡角度滑动条",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 42
     },
@@ -1653,6 +1694,7 @@
     "__type__": "cc.Node",
     "_name": "Handle",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 43
     },
@@ -1703,6 +1745,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 44
     },
@@ -1724,6 +1767,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 44
     },
@@ -1762,6 +1806,7 @@
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 44
     },
@@ -1816,6 +1861,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 43
     },
@@ -1837,6 +1883,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 43
     },
@@ -1875,6 +1922,7 @@
     "__type__": "cc.Slider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 43
     },
@@ -1906,6 +1954,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 42
     },
@@ -1953,6 +2002,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 52
     },
@@ -1974,6 +2024,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 52
     },
@@ -2012,6 +2063,7 @@
     "__type__": "cc.Node",
     "_name": "最大爬坡角度数值",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 42
     },
@@ -2059,6 +2111,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 55
     },
@@ -2066,7 +2119,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.25,
+      "width": 22.24609375,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2080,6 +2133,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 55
     },
@@ -2118,6 +2172,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 42
     },
@@ -2139,6 +2194,7 @@
     "__type__": "cc.Node",
     "_name": "最大台阶高度",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -2193,6 +2249,7 @@
     "__type__": "cc.Node",
     "_name": "最大台阶高度滑动条",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 59
     },
@@ -2247,6 +2304,7 @@
     "__type__": "cc.Node",
     "_name": "Handle",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 60
     },
@@ -2297,6 +2355,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 61
     },
@@ -2318,6 +2377,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 61
     },
@@ -2356,6 +2416,7 @@
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 61
     },
@@ -2410,6 +2471,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 60
     },
@@ -2431,6 +2493,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 60
     },
@@ -2469,6 +2532,7 @@
     "__type__": "cc.Slider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 60
     },
@@ -2500,6 +2564,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 59
     },
@@ -2547,6 +2612,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 69
     },
@@ -2568,6 +2634,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 69
     },
@@ -2606,6 +2673,7 @@
     "__type__": "cc.Node",
     "_name": "最大台阶高度数值",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 59
     },
@@ -2653,6 +2721,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 72
     },
@@ -2660,7 +2729,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 27.8,
+      "width": 27.802734375,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2674,6 +2743,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 72
     },
@@ -2712,6 +2782,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 59
     },
@@ -2733,6 +2804,7 @@
     "__type__": "cc.Node",
     "_name": "重置",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -2787,6 +2859,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 512,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 76
     },
@@ -2834,6 +2907,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 77
     },
@@ -2855,6 +2929,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 77
     },
@@ -2893,6 +2968,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 76
     },
@@ -2914,6 +2990,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 76
     },
@@ -2952,6 +3029,7 @@
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 76
     },
@@ -3029,6 +3107,7 @@
     "__type__": "cc.Node",
     "_name": "跳跃",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -3083,6 +3162,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 512,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 84
     },
@@ -3130,6 +3210,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 85
     },
@@ -3151,6 +3232,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 85
     },
@@ -3189,6 +3271,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 84
     },
@@ -3210,6 +3293,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 84
     },
@@ -3248,6 +3332,7 @@
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 84
     },
@@ -3323,8 +3408,9 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "接触间隙",
+    "_name": "皮肤宽度",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -3377,8 +3463,9 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "接触间隙滑动条",
+    "_name": "皮肤宽度滑动条",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 92
     },
@@ -3433,6 +3520,7 @@
     "__type__": "cc.Node",
     "_name": "Handle",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 93
     },
@@ -3483,6 +3571,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 94
     },
@@ -3504,6 +3593,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 94
     },
@@ -3542,6 +3632,7 @@
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 94
     },
@@ -3596,6 +3687,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 93
     },
@@ -3617,6 +3709,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 93
     },
@@ -3655,6 +3748,7 @@
     "__type__": "cc.Slider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 93
     },
@@ -3686,6 +3780,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 92
     },
@@ -3733,6 +3828,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 102
     },
@@ -3754,6 +3850,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 102
     },
@@ -3769,7 +3866,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "接触间隙",
+    "_string": "皮肤宽度",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 20,
@@ -3790,8 +3887,9 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "接触间隙数值",
+    "_name": "皮肤宽度数值",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 92
     },
@@ -3839,6 +3937,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 105
     },
@@ -3846,7 +3945,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38.93,
+      "width": 38.92578125,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -3860,6 +3959,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 105
     },
@@ -3898,6 +3998,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 92
     },
@@ -3919,6 +4020,7 @@
     "__type__": "cc.Node",
     "_name": "节点缩放",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -3973,6 +4075,7 @@
     "__type__": "cc.Node",
     "_name": "节点缩放滑动条",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 109
     },
@@ -4027,6 +4130,7 @@
     "__type__": "cc.Node",
     "_name": "Handle",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 110
     },
@@ -4077,6 +4181,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 111
     },
@@ -4098,6 +4203,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 111
     },
@@ -4136,6 +4242,7 @@
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 111
     },
@@ -4190,6 +4297,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 110
     },
@@ -4211,6 +4319,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 110
     },
@@ -4249,6 +4358,7 @@
     "__type__": "cc.Slider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 110
     },
@@ -4280,6 +4390,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 109
     },
@@ -4327,6 +4438,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 119
     },
@@ -4348,6 +4460,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 119
     },
@@ -4386,6 +4499,7 @@
     "__type__": "cc.Node",
     "_name": "节点缩放数值",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 109
     },
@@ -4433,6 +4547,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 122
     },
@@ -4440,7 +4555,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.12,
+      "width": 11.123046875,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -4454,6 +4569,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 122
     },
@@ -4492,6 +4608,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 109
     },
@@ -4513,6 +4630,7 @@
     "__type__": "cc.Node",
     "_name": "测试说明按钮",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 9
     },
@@ -4567,6 +4685,7 @@
     "__type__": "cc.Node",
     "_name": "Label",
     "_objFlags": 512,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 126
     },
@@ -4614,6 +4733,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 127
     },
@@ -4635,6 +4755,7 @@
     "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 127
     },
@@ -4673,6 +4794,7 @@
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 126
     },
@@ -4694,6 +4816,7 @@
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 126
     },
@@ -4732,6 +4855,7 @@
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 126
     },
@@ -4809,6 +4933,7 @@
     "__type__": "cc.UITransform",
     "_name": "Canvas<UITransform>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 9
     },
@@ -4830,6 +4955,7 @@
     "__type__": "cc.Canvas",
     "_name": "Canvas<Canvas>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 9
     },
@@ -4845,6 +4971,7 @@
     "__type__": "cc.Camera",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 137
     },
@@ -4890,6 +5017,7 @@
     "__type__": "cc.Node",
     "_name": "UICamera_Canvas",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -4934,6 +5062,7 @@
     "__type__": "cc.Widget",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 9
     },
@@ -4963,6 +5092,7 @@
     "__type__": "cc.Node",
     "_name": "地面",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -5010,6 +5140,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 139
     },
@@ -5021,7 +5152,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 141
@@ -5037,6 +5167,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "70uEkda0RN47qWKZTuvHqZ"
   },
@@ -5064,6 +5195,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 139
     },
@@ -5089,6 +5221,7 @@
     "__type__": "cc.Node",
     "_name": "斜坡测试",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -5157,6 +5290,7 @@
     "__type__": "cc.Node",
     "_name": "slope10",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -5204,6 +5338,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 144
     },
@@ -5215,7 +5350,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 146
@@ -5231,6 +5365,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "f2QdTE0nlCyoyQzJjFWsYe"
   },
@@ -5258,6 +5393,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 144
     },
@@ -5283,6 +5419,7 @@
     "__type__": "cc.Node",
     "_name": "slope20",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -5330,6 +5467,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 148
     },
@@ -5341,7 +5479,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 150
@@ -5357,6 +5494,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "23pPdIQQJCq5VkrQkjMNnB"
   },
@@ -5384,6 +5522,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 148
     },
@@ -5409,6 +5548,7 @@
     "__type__": "cc.Node",
     "_name": "slope30",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -5456,6 +5596,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 152
     },
@@ -5467,7 +5608,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 154
@@ -5483,6 +5623,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "aby2IPEIhCBbDK8zAglWWh"
   },
@@ -5510,6 +5651,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 152
     },
@@ -5535,6 +5677,7 @@
     "__type__": "cc.Node",
     "_name": "slope40",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -5582,6 +5725,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 156
     },
@@ -5593,7 +5737,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 158
@@ -5609,6 +5752,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "beRZKg1JxP34EPZqBCYS4g"
   },
@@ -5636,6 +5780,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 156
     },
@@ -5661,6 +5806,7 @@
     "__type__": "cc.Node",
     "_name": "slope50",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -5708,6 +5854,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 160
     },
@@ -5719,7 +5866,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 162
@@ -5735,6 +5881,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "8bGNSjYm1Dzq/IK+in+Iom"
   },
@@ -5762,6 +5909,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 160
     },
@@ -5787,6 +5935,7 @@
     "__type__": "cc.Node",
     "_name": "slope60",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -5834,6 +5983,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 164
     },
@@ -5845,7 +5995,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 166
@@ -5861,6 +6010,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "40KQrXvb9DwYCYGPIwimCL"
   },
@@ -5888,6 +6038,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 164
     },
@@ -5913,6 +6064,7 @@
     "__type__": "cc.Node",
     "_name": "slope70",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -5960,6 +6112,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 168
     },
@@ -5971,7 +6124,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 170
@@ -5987,6 +6139,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "afyMZAcRJDzLS9jp2jKJef"
   },
@@ -6014,6 +6167,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 168
     },
@@ -6039,6 +6193,7 @@
     "__type__": "cc.Node",
     "_name": "slope80",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -6086,6 +6241,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 172
     },
@@ -6097,7 +6253,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 174
@@ -6113,6 +6268,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "731Ij82utJ4ruZHctfUiWt"
   },
@@ -6140,6 +6296,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 172
     },
@@ -6165,6 +6322,7 @@
     "__type__": "cc.Node",
     "_name": "slope90",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 143
     },
@@ -6212,6 +6370,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 176
     },
@@ -6223,7 +6382,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 178
@@ -6239,6 +6397,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "5dywpIOe9HpKSLJZs5bLJG"
   },
@@ -6266,6 +6425,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 176
     },
@@ -6291,6 +6451,7 @@
     "__type__": "cc.Node",
     "_name": "台阶测试",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -6335,6 +6496,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_1",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 180
     },
@@ -6386,6 +6548,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_2",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 181
     },
@@ -6437,6 +6600,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_3",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 182
     },
@@ -6488,6 +6652,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_4",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 183
     },
@@ -6539,6 +6704,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_5",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 184
     },
@@ -6590,6 +6756,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_6",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 185
     },
@@ -6641,6 +6808,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_7",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 186
     },
@@ -6692,6 +6860,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_8",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 187
     },
@@ -6743,6 +6912,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_9",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 188
     },
@@ -6794,6 +6964,7 @@
     "__type__": "cc.Node",
     "_name": "offset0_10",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 189
     },
@@ -6841,6 +7012,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 190
     },
@@ -6852,7 +7024,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 192
@@ -6868,6 +7039,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "6eD/6MwI9M9a3V6TxZckOW"
   },
@@ -6895,6 +7067,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 190
     },
@@ -6920,6 +7093,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 189
     },
@@ -6931,7 +7105,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 195
@@ -6947,6 +7120,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "f1NYBG1iZDV7dhnt8pDGhs"
   },
@@ -6974,6 +7148,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 189
     },
@@ -6999,6 +7174,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 188
     },
@@ -7010,7 +7186,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 198
@@ -7026,6 +7201,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "f3r7pwTUNMAK2HpWRrhqnH"
   },
@@ -7053,6 +7229,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 188
     },
@@ -7078,6 +7255,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 187
     },
@@ -7089,7 +7267,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 201
@@ -7105,6 +7282,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "f8oszknTNL3Z5PdfcjU61K"
   },
@@ -7132,6 +7310,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 187
     },
@@ -7157,6 +7336,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 186
     },
@@ -7168,7 +7348,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 204
@@ -7184,6 +7363,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "90Ns6WxTFEDoSolKUBgnuQ"
   },
@@ -7211,6 +7391,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 186
     },
@@ -7236,6 +7417,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 185
     },
@@ -7247,7 +7429,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 207
@@ -7263,6 +7444,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "66JmO1pWlDMY4j0DkvPmMg"
   },
@@ -7290,6 +7472,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 185
     },
@@ -7315,6 +7498,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 184
     },
@@ -7326,7 +7510,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 210
@@ -7342,6 +7525,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "e7exezy05Ca57UdGgy41Lz"
   },
@@ -7369,6 +7553,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 184
     },
@@ -7394,6 +7579,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 183
     },
@@ -7405,7 +7591,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 213
@@ -7421,6 +7606,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "d59bsiVWtPt7xePojfnM8J"
   },
@@ -7448,6 +7634,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 183
     },
@@ -7473,6 +7660,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 182
     },
@@ -7484,7 +7672,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 216
@@ -7500,6 +7687,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "5aKDqk3RZAObibazGID/Wl"
   },
@@ -7527,6 +7715,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 182
     },
@@ -7552,6 +7741,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 181
     },
@@ -7563,7 +7753,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 219
@@ -7579,6 +7768,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "bcL6exmeJODI/FOAKcrdXL"
   },
@@ -7606,6 +7796,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 181
     },
@@ -7631,6 +7822,7 @@
     "__type__": "cc.Node",
     "_name": "CapsuleCCT",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -7681,6 +7873,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 221
     },
@@ -7692,7 +7885,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 223
@@ -7708,6 +7900,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "89LLaUEXlBAZanDvND7X1n"
   },
@@ -7735,6 +7928,7 @@
     "__type__": "cc.CapsuleCharacterController",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 221
     },
@@ -7744,7 +7938,7 @@
     "_minMoveDistance": 0.001,
     "_stepOffset": 0.5,
     "_slopeLimit": 45,
-    "_contactOffset": 0.01,
+    "_skinWidth": 0.01,
     "_center": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -7759,6 +7953,7 @@
     "__type__": "bb42f0UB7hIS5zNZ3tiXoSG",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 221
     },
@@ -7775,6 +7970,7 @@
     "__type__": "cc.Node",
     "_name": "BoxCCT",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -7825,6 +8021,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 226
     },
@@ -7836,7 +8033,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 228
@@ -7852,6 +8048,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "91HkX5ETVMSbWrLn/pHrh+"
   },
@@ -7879,6 +8076,7 @@
     "__type__": "bb42f0UB7hIS5zNZ3tiXoSG",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 226
     },
@@ -7895,6 +8093,7 @@
     "__type__": "cc.BoxCharacterController",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 226
     },
@@ -7904,7 +8103,7 @@
     "_minMoveDistance": 0.001,
     "_stepOffset": 0.5,
     "_slopeLimit": 45,
-    "_contactOffset": 0.01,
+    "_skinWidth": 0.01,
     "_center": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -7920,6 +8119,7 @@
     "__type__": "cc.Node",
     "_name": "碰撞体测试",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -7988,6 +8188,7 @@
     "__type__": "cc.Node",
     "_name": "盒A",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -8038,6 +8239,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 232
     },
@@ -8049,7 +8251,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 234
@@ -8065,6 +8266,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "e3JNwUy7VHb7OkOMVunNMF"
   },
@@ -8092,6 +8294,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 232
     },
@@ -8117,6 +8320,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 232
     },
@@ -8147,6 +8351,7 @@
     "__type__": "cc.Node",
     "_name": "凹网格碰撞体",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -8197,6 +8402,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Torus<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 237
     },
@@ -8208,7 +8414,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 239
@@ -8224,6 +8429,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "42kjsS54FOPpa6hstfbGj+"
   },
@@ -8251,6 +8457,7 @@
     "__type__": "cc.MeshCollider",
     "_name": "Torus<MeshCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 237
     },
@@ -8275,6 +8482,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 237
     },
@@ -8305,6 +8513,7 @@
     "__type__": "cc.Node",
     "_name": "胶囊",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -8358,6 +8567,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Sphere<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 242
     },
@@ -8369,7 +8579,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 244
@@ -8385,6 +8594,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "f9dGoNNUtI77jI/S0iCGF8"
   },
@@ -8412,6 +8622,7 @@
     "__type__": "cc.CapsuleCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 242
     },
@@ -8434,6 +8645,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 242
     },
@@ -8464,6 +8676,7 @@
     "__type__": "50126dE8rlBb4hR6La4aPfS",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 242
     },
@@ -8476,6 +8689,7 @@
     "__type__": "cc.Node",
     "_name": "圆柱",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -8526,6 +8740,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cylinder<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 248
     },
@@ -8537,7 +8752,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 250
@@ -8553,6 +8767,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "eagE4QW1tHK7IAIYnuwb7y"
   },
@@ -8580,6 +8795,7 @@
     "__type__": "cc.CylinderCollider",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 248
     },
@@ -8602,6 +8818,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 248
     },
@@ -8632,6 +8849,7 @@
     "__type__": "cc.Node",
     "_name": "球A",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -8682,6 +8900,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Sphere<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 253
     },
@@ -8693,7 +8912,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 255
@@ -8709,6 +8927,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "84t1T/Y9pLUrPkfndPwdDV"
   },
@@ -8736,6 +8955,7 @@
     "__type__": "cc.SphereCollider",
     "_name": "球A<SphereCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 253
     },
@@ -8756,6 +8976,7 @@
     "__type__": "cc.RigidBody",
     "_name": "球A<RigidBody>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 253
     },
@@ -8786,6 +9007,7 @@
     "__type__": "cc.Node",
     "_name": "球B-groupTest",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -8836,6 +9058,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Sphere<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 258
     },
@@ -8847,7 +9070,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 260
@@ -8863,6 +9085,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "c4r1NFSwxHsYuhCTF1wfaS"
   },
@@ -8890,6 +9113,7 @@
     "__type__": "cc.SphereCollider",
     "_name": "球A<SphereCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 258
     },
@@ -8910,6 +9134,7 @@
     "__type__": "cc.RigidBody",
     "_name": "球A<RigidBody>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 258
     },
@@ -8940,6 +9165,7 @@
     "__type__": "cc.Node",
     "_name": "球C-triggerTest",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -8990,6 +9216,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Sphere<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 263
     },
@@ -9001,7 +9228,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 265
@@ -9017,6 +9243,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "fcoGo1FJFDMLVuQS7FA9pG"
   },
@@ -9044,6 +9271,7 @@
     "__type__": "cc.SphereCollider",
     "_name": "球A<SphereCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 263
     },
@@ -9064,6 +9292,7 @@
     "__type__": "cc.RigidBody",
     "_name": "球A<RigidBody>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 263
     },
@@ -9094,6 +9323,7 @@
     "__type__": "cc.Node",
     "_name": "地形",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -9141,6 +9371,7 @@
     "__type__": "cc.Terrain",
     "_name": "Mutiple<Terrain>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 268
     },
@@ -9163,6 +9394,7 @@
     "__type__": "cc.TerrainCollider",
     "_name": "mutiple<TerrainCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 268
     },
@@ -9186,6 +9418,7 @@
     "__type__": "cc.Node",
     "_name": "ZONE",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 231
     },
@@ -9230,6 +9463,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 271
     },
@@ -9241,7 +9475,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 273
@@ -9257,6 +9490,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "fa6NMUoM9MbpxOUfnvwv31"
   },
@@ -9284,6 +9518,7 @@
     "__type__": "cc.Node",
     "_name": "移动物体测试",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -9328,6 +9563,7 @@
     "__type__": "cc.Node",
     "_name": "板A",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 274
     },
@@ -9381,6 +9617,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 275
     },
@@ -9392,7 +9629,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 277
@@ -9408,6 +9644,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "92SykqjPVHV7wvXspH4J0Y"
   },
@@ -9435,6 +9672,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 275
     },
@@ -9460,6 +9698,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 275
     },
@@ -9490,6 +9729,7 @@
     "__type__": "cc.Animation",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 275
     },
@@ -9512,6 +9752,7 @@
     "__type__": "cc.Node",
     "_name": "起点",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -9556,6 +9797,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 281
     },
@@ -9567,7 +9809,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 283
@@ -9583,6 +9824,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "3exu28oyRKu6XL408pfYSk"
   },
@@ -9610,6 +9852,7 @@
     "__type__": "cc.Node",
     "_name": "HitPoint",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -9654,6 +9897,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 284
     },
@@ -9665,7 +9909,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 286
@@ -9681,6 +9924,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "b8C0nE4BpGm5KOzwpJbjo0"
   },
@@ -9708,6 +9952,7 @@
     "__type__": "cc.Node",
     "_name": "过门测试",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -9764,6 +10009,7 @@
     "__type__": "cc.Node",
     "_name": "门-高2",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 287
     },
@@ -9814,6 +10060,7 @@
     "__type__": "cc.Node",
     "_name": "横梁",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 288
     },
@@ -9864,6 +10111,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 289
     },
@@ -9875,7 +10123,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 291
@@ -9891,6 +10138,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "c82R0QiW5GhYF6l32QQjg9"
   },
@@ -9918,6 +10166,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 289
     },
@@ -9943,6 +10192,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 289
     },
@@ -9973,6 +10223,7 @@
     "__type__": "cc.Node",
     "_name": "左侧",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 288
     },
@@ -10023,6 +10274,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 294
     },
@@ -10034,7 +10286,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 296
@@ -10050,6 +10301,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "3bAQNVX5BMZ48YGeN1mx7k"
   },
@@ -10077,6 +10329,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 294
     },
@@ -10102,6 +10355,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 294
     },
@@ -10132,6 +10386,7 @@
     "__type__": "cc.Node",
     "_name": "右侧",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 288
     },
@@ -10182,6 +10437,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 299
     },
@@ -10193,7 +10449,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 301
@@ -10209,6 +10464,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "55E8n+26FEeYY79rHJTc7S"
   },
@@ -10236,6 +10492,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 299
     },
@@ -10261,6 +10518,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 299
     },
@@ -10291,6 +10549,7 @@
     "__type__": "cc.Node",
     "_name": "门-高1",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 287
     },
@@ -10341,6 +10600,7 @@
     "__type__": "cc.Node",
     "_name": "横梁",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 304
     },
@@ -10391,6 +10651,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 305
     },
@@ -10402,7 +10663,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 307
@@ -10418,6 +10678,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "a9zGq2TbBJabtJ/vaEy5FA"
   },
@@ -10445,6 +10706,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 305
     },
@@ -10470,6 +10732,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 305
     },
@@ -10500,6 +10763,7 @@
     "__type__": "cc.Node",
     "_name": "左侧",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 304
     },
@@ -10550,6 +10814,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 310
     },
@@ -10561,7 +10826,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 312
@@ -10577,6 +10841,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "62aGzwpn9K1LxnVT0fUlmI"
   },
@@ -10604,6 +10869,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 310
     },
@@ -10629,6 +10895,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 310
     },
@@ -10659,6 +10926,7 @@
     "__type__": "cc.Node",
     "_name": "右侧",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 304
     },
@@ -10709,6 +10977,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 315
     },
@@ -10720,7 +10989,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 317
@@ -10736,6 +11004,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "9cW1MYUWtF3q0zWijSHBHW"
   },
@@ -10763,6 +11032,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 315
     },
@@ -10788,6 +11058,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 315
     },
@@ -10818,6 +11089,7 @@
     "__type__": "cc.Node",
     "_name": "围栏左",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 287
     },
@@ -10868,6 +11140,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 320
     },
@@ -10879,7 +11152,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 322
@@ -10895,6 +11167,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "70jdhfuzNI8YXehaVIf8QD"
   },
@@ -10922,6 +11195,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 320
     },
@@ -10947,6 +11221,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 320
     },
@@ -10977,6 +11252,7 @@
     "__type__": "cc.Node",
     "_name": "围栏右",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 287
     },
@@ -11027,6 +11303,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<MeshRenderer>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 325
     },
@@ -11038,7 +11315,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 327
@@ -11054,6 +11330,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "95s3vxKSNMgIrdAaxv6gZ1"
   },
@@ -11081,6 +11358,7 @@
     "__type__": "cc.BoxCollider",
     "_name": "Cube<BoxCollider>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 325
     },
@@ -11106,6 +11384,7 @@
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 325
     },
@@ -11136,6 +11415,7 @@
     "__type__": "cc.Node",
     "_name": "Cube",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 287
     },
@@ -11180,6 +11460,7 @@
     "__type__": "cc.MeshRenderer",
     "_name": "Cube<ModelComponent>",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 330
     },
@@ -11191,7 +11472,6 @@
         "__expectedType__": "cc.Material"
       }
     ],
-    "_enabledStandardSkin": false,
     "_visFlags": 0,
     "bakeSettings": {
       "__id__": 332
@@ -11207,6 +11487,7 @@
     "_reflectionProbeId": -1,
     "_reflectionProbeBlendId": -1,
     "_reflectionProbeBlendWeight": 0,
+    "_enabledGlobalStandardSkinObject": false,
     "_enableMorph": true,
     "_id": "96eWZ+YDtIyKNBWeQBozmI"
   },

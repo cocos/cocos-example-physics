@@ -70,7 +70,7 @@ export class CharacterControllerTest extends Component {
         this._hitPoint.setWorldScale(scale);
         this._hitPoint.setWorldRotation(rotation);
         
-        const body = hit.otherCollider.attachedRigidbody;
+        const body = hit.collider.attachedRigidBody;
         // no rigidbody
         if (body == null || body.isKinematic) {
             return;
