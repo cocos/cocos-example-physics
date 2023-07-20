@@ -25,6 +25,14 @@ export class SweepHelper extends Component {
     @property({ type: CameraComponent })
     cameraCom: CameraComponent = null!;
 
+    //hit-point-material
+    @property({ type: Material })
+    hitPointMaterial: Material = null!;
+
+    //line-segment-material
+    @property({ type: Material })
+    lineSegmentMaterial: Material = null!;
+
     // private controlPointContainer = new Node("controlPointContainer");
     private hitPointContainer = new Node("hitPointContainer");
     private lineSegmentContainer = new Node("lineSegmentContainer");
@@ -75,24 +83,16 @@ export class SweepHelper extends Component {
         this._sweepCapsule = this.node.scene.getChildByName('SweepShape')!.getChildByName('Capsule')!;
 
         //init hit point node
-        const hitPointMaterial = new Material();
-        hitPointMaterial.initialize({
-            'effectName': 'builtin-standard'
-        })
-        hitPointMaterial.setProperty('mainColor', new Color(200, 0, 0, 255));
+        this.hitPointMaterial.setProperty('mainColor', new Color(200, 0, 0, 255));
         let hitPointMesh = new Primitive(Primitive.PrimitiveType.BOX);//SPHERE is not working
         hitPointMesh.onLoaded();
         const _hitPointRenderCom = this._hitPoint.addComponent(MeshRenderer);
         _hitPointRenderCom.mesh = hitPointMesh;
-        _hitPointRenderCom.material = hitPointMaterial;
+        _hitPointRenderCom.material = this.hitPointMaterial;
         director.addPersistRootNode(this.hitPointContainer);
 
         //init lineSegment node
-        const lineSegmentMaterial = new Material();
-        lineSegmentMaterial.initialize({
-            'effectName': 'builtin-standard'
-        })
-        lineSegmentMaterial.setProperty('mainColor', new Color(200, 0, 0, 255));
+        this.lineSegmentMaterial.setProperty('mainColor', new Color(200, 0, 0, 255));
         let mesh = new Primitive(Primitive.PrimitiveType.BOX);
         mesh.onLoaded();
         let temoNode = new Node();
@@ -100,7 +100,7 @@ export class SweepHelper extends Component {
         temoNode.setPosition(new Vec3(0,0.5,0));
         const modelCom = temoNode.addComponent(MeshRenderer);
         modelCom.mesh = mesh;
-        modelCom.material = lineSegmentMaterial;
+        modelCom.material = this.lineSegmentMaterial;
         director.addPersistRootNode(this.lineSegmentContainer);
 
         this.generateSegments(this.SampleNumnber, this.sweepShapeType);

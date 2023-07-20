@@ -15,6 +15,18 @@ export class CurvecastHelper extends Component {
     @property({ type: CameraComponent })
     cameraCom: CameraComponent = null!;
 
+    //control-point-material
+    @property({ type: Material })
+    controlPointMaterial: Material = null!;
+
+    //hit-point-material
+    @property({ type: Material })
+    hitPointMaterial: Material = null!;
+
+    //line-segment-material
+    @property({ type: Material })
+    lineSegmentMaterial: Material = null!;
+
     private controlPointContainer = new Node("controlPointContainer");
     private hitPointContainer = new Node("hitPointContainer");
     private lineSegmentContainer = new Node("lineSegmentContainer");
@@ -41,41 +53,29 @@ export class CurvecastHelper extends Component {
 
     private ResultLabel: any;
 
-    __preload () {
+    onLoad () {
         this.ResultLabel = this.node.scene.getChildByName('Canvas')!.getChildByName('Result')!.getComponent(LabelComponent)!;
 
         //init control point node
-        const controlPointMaterial = new Material();
-        controlPointMaterial.initialize({
-            'effectName': 'builtin-standard'
-        })
-        controlPointMaterial.setProperty('mainColor', new Color(0, 255, 0, 255));
+        this.controlPointMaterial.setProperty('mainColor', new Color(0, 255, 0, 255));
         let controlPointMesh = new Primitive(Primitive.PrimitiveType.BOX);//SPHERE is not working
         controlPointMesh.onLoaded();
         const _controlPointRenderCom = this._controlPoint.addComponent(MeshRenderer);
         _controlPointRenderCom.mesh = controlPointMesh;
-        _controlPointRenderCom.material = controlPointMaterial;
+        _controlPointRenderCom.material = this.controlPointMaterial;
         director.addPersistRootNode(this.controlPointContainer);
 
         //init hit point node
-        const hitPointMaterial = new Material();
-        hitPointMaterial.initialize({
-            'effectName': 'builtin-standard'
-        })
-        hitPointMaterial.setProperty('mainColor', new Color(255, 255, 0, 255));
+        this.hitPointMaterial.setProperty('mainColor', new Color(255, 255, 0, 255));
         let hitPointMesh = new Primitive(Primitive.PrimitiveType.BOX);//SPHERE is not working
         hitPointMesh.onLoaded();
         const _hitPointRenderCom = this._hitPoint.addComponent(MeshRenderer);
         _hitPointRenderCom.mesh = hitPointMesh;
-        _hitPointRenderCom.material = hitPointMaterial;
+        _hitPointRenderCom.material = this.hitPointMaterial;
         director.addPersistRootNode(this.hitPointContainer);
 
         //init lineSegment node
-        const lineSegmentMaterial = new Material();
-        lineSegmentMaterial.initialize({
-            'effectName': 'builtin-standard'
-        })
-        lineSegmentMaterial.setProperty('mainColor', new Color(200, 0, 0, 255));
+        this.lineSegmentMaterial.setProperty('mainColor', new Color(200, 0, 0, 255));
         let mesh = new Primitive(Primitive.PrimitiveType.BOX);
         mesh.onLoaded();
         let temoNode = new Node();
@@ -83,7 +83,7 @@ export class CurvecastHelper extends Component {
         temoNode.setPosition(new Vec3(0,0.5,0));
         const modelCom = temoNode.addComponent(MeshRenderer);
         modelCom.mesh = mesh;
-        modelCom.material = lineSegmentMaterial;
+        modelCom.material = this.lineSegmentMaterial;
         director.addPersistRootNode(this.lineSegmentContainer);
 
         this.SetSampleNumber(this.SampleNumnber);
@@ -91,9 +91,6 @@ export class CurvecastHelper extends Component {
         let expectationLabel = this.node.scene.getChildByName('Canvas')!.getChildByName('Expectation')!.getComponent(LabelComponent)!;
         expectationLabel.string = "physx和bullet跟所有类型碰撞体都可以有碰撞点\n builtin跟圆柱/圆锥体没有碰撞点\n cannon.js跟胶囊体没有碰撞点";
         //expectationLabel.string = "In physx and bullet, curve intersects with all kinds of colliders.\nIn builtin, curve doesn't intersect with cylinder and cone.\nIn cannon.js, curve doesn't intersect with capsule.";
-    }
-
-    onLoad() {
     }
 
     start(){
