@@ -12,10 +12,10 @@ export class OneWayPlatform extends Component {
     start () {
         // Your initialization goes here.
         let collider = this.getComponent(Collider2D);
-        collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        collider.on(Contact2DType.PRE_SOLVE, this.onPreSolve, this);
     }
 
-    onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact) {
+    onPreSolve (selfCollider: Collider2D, otherCollider: Collider2D, contact) {
         let otherBody = otherCollider.body;
         let platformBody = selfCollider.body;
 

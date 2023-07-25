@@ -172,14 +172,15 @@ export class CharacterControllerTest extends Component {
                 // damping
                 this._playerVelocity.x *= this.linearDamping;
                 this._playerVelocity.z *= this.linearDamping;
-
-                //grounded
-                this._playerVelocity.y = 0;
             }
         }
 
         Vec3.multiplyScalar(this._movement, this._playerVelocity, deltaTime);
         this._cct!.move(this._movement);
+
+        if (this._grounded) {
+            this._playerVelocity.y = 0;
+        }
     }
 }
 
