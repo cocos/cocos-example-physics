@@ -1,5 +1,5 @@
 import { _decorator, Component, Node, CharacterController, Vec2, Vec3, Input, EventKeyboard, 
-    KeyCode, clamp, input, PhysicsSystem, CharacterControllerContact, Quat, EventTouch, BoxCharacterController } from 'cc';
+    KeyCode, clamp, input, PhysicsSystem, CharacterControllerContact, Quat, EventTouch, BoxCharacterController, ModelComponent, Color } from 'cc';
 const { ccclass, property, menu } = _decorator;
 const v_3 = new Vec3();
 const v3_0 = new Vec3();
@@ -41,6 +41,9 @@ export class CharacterControllerTest extends Component {
         this._cct = this.node.getComponent(CharacterController)!;
         if (this._cct) {
             this._cct.on('onControllerColliderHit', this.onControllerColliderHit, this);
+            this._cct.on('onControllerTriggerEnter', this.onControllerTriggerEnter, this);
+            this._cct.on('onControllerTriggerStay', this.onControllerTriggerStay, this);
+            this._cct.on('onControllerTriggerExit', this.onControllerTriggerExit, this);
         }
     }
 
@@ -91,6 +94,26 @@ export class CharacterControllerTest extends Component {
         // Apply the push
         Vec3.multiplyScalar(pushDir, pushDir, this.pushPower);
         body.setLinearVelocity(pushDir);
+    }
+
+    onControllerTriggerEnter(event: any) {
+        console.log('cct onControllerTriggerEnter', event);
+        const modelCom = event.characterController.node.getComponent(ModelComponent);
+        if (modelCom) {
+            modelCom.material.setProperty('mainColor', new Color(255, 0, 0, 99));
+        }
+    }
+
+    onControllerTriggerStay(event: any) {
+        console.log('cct onControllerTriggerStay', event);
+    }
+
+    onControllerTriggerExit(event: any) {
+        console.log('cct onControllerTriggerExit', event);
+        const modelCom = event.characterController.node.getComponent(ModelComponent);
+        if (modelCom) {
+            modelCom.material.setProperty('mainColor', new Color(255, 255, 255, 99));
+        }
     }
 
     onKeyDown (event: EventKeyboard) {
