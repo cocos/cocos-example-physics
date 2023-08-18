@@ -21,7 +21,7 @@ export class CharacterControllerTriggerTest extends Component {
     }
 
     onControllerTriggerEnter(event: any) {
-        console.log('onControllerTriggerEnter', event);
+        //console.log('onControllerTriggerEnter', event);
         this.ResultLabel.string = 'onControllerTriggerEnter';
         const modelCom = event.collider.node.getComponent(ModelComponent);
         modelCom.material.setProperty('mainColor', new Color(255, 0, 0, 255));
@@ -29,12 +29,12 @@ export class CharacterControllerTriggerTest extends Component {
 
     onControllerTriggerStay(event: any) {
         this.ResultLabel.string = 'onControllerTriggerStay';
-        console.log('onControllerTriggerStay', event);
+        //console.log('onControllerTriggerStay', event);
     }
 
     onControllerTriggerExit(event: any) {
         this.ResultLabel.string = 'onControllerTriggerExit';
-        console.log('onControllerTriggerExit', event);
+        //console.log('onControllerTriggerExit', event);
         const modelCom = event.collider.node.getComponent(ModelComponent);
         modelCom.material.setProperty('mainColor', new Color(255, 255, 0, 255));
     }
