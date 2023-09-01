@@ -97,7 +97,7 @@ export class CharacterControllerTest extends Component {
     }
 
     onControllerTriggerEnter(event: any) {
-        console.log('cct onControllerTriggerEnter', event);
+        //console.log('cct onControllerTriggerEnter', event);
         const modelCom = event.characterController.node.getComponent(ModelComponent);
         if (modelCom) {
             modelCom.material.setProperty('mainColor', new Color(255, 0, 0, 99));
@@ -105,11 +105,11 @@ export class CharacterControllerTest extends Component {
     }
 
     onControllerTriggerStay(event: any) {
-        console.log('cct onControllerTriggerStay', event);
+        //console.log('cct onControllerTriggerStay', event);
     }
 
     onControllerTriggerExit(event: any) {
-        console.log('cct onControllerTriggerExit', event);
+        //console.log('cct onControllerTriggerExit', event);
         const modelCom = event.characterController.node.getComponent(ModelComponent);
         if (modelCom) {
             modelCom.material.setProperty('mainColor', new Color(255, 255, 255, 99));
@@ -170,6 +170,12 @@ export class CharacterControllerTest extends Component {
         if(!this._cct) return;
         this._cct!.centerWorldPosition = new Vec3(-3,5,6);
     }
+
+    onSetInvalidPosition(){
+        if(!this._cct) return;
+        this._cct!.centerWorldPosition = new Vec3(100000, 100000, 100000);
+    }
+
     update(deltaTime: number) {
         if(!this._cct) 
             return;
