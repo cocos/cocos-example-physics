@@ -9,6 +9,7 @@ export class CharacterControllerHelper extends Component {
 
     private _BoxCCT : Node = null!;
     private _CapsuleCCT : Node = null!;
+    private _ActiveCCT : Node = null!;
     private _slopeLimitComp : Component = null!;
     private _stepOffsetComp : Component = null!;
     private _SkinWidthComp : Component = null!;
@@ -36,32 +37,30 @@ export class CharacterControllerHelper extends Component {
 
         const descNode = this.node.scene.getChildByName('Canvas')!.getChildByName('测试说明')!;
         this._descComp = descNode.getComponent(LabelComponent)!;
+        
+        this._BoxCCT.active = true;
+        this._CapsuleCCT.active = true;
 
+        this.onUseCapsuleCharacterController();
     }
 
     onDestroy () {
     }
     
     onUseCapsuleCharacterController() {
-        this._CapsuleCCT.active = true;
-        this._BoxCCT.active = false;
+        this._BoxCCT!.getComponent(CharacterControllerTest)!.onSetInvalidPosition();
         this._CapsuleCCT!.getComponent(CharacterControllerTest)!.onResetPosition();
+        this._ActiveCCT = this._CapsuleCCT;
     }
 
     onUseBoxCharacterController() {
-        this._CapsuleCCT.active = false;
-        this._BoxCCT.active = true;
+        this._CapsuleCCT!.getComponent(CharacterControllerTest)!.onSetInvalidPosition();
         this._BoxCCT!.getComponent(CharacterControllerTest)!.onResetPosition();
+        this._ActiveCCT = this._BoxCCT;
     }
 
     onResetCCTPosition() {
-        this._CapsuleCCT!.getComponent(CharacterControllerTest)!.onResetPosition();
-        this._BoxCCT!.getComponent(CharacterControllerTest)!.onResetPosition();
-    }
-
-    onCCTJump() {
-        this._CapsuleCCT!.getComponent(CharacterControllerTest)!.jump();
-        this._BoxCCT!.getComponent(CharacterControllerTest)!.jump();
+        this._ActiveCCT!.getComponent(CharacterControllerTest)!.onResetPosition();
     }
 
     onChangeCCTSlopeLimit(customEventData:any) {
