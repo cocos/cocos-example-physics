@@ -69,6 +69,9 @@
       "profiler": {
         "_value": true
       },
+      "geometry-renderer": {
+        "_value": true
+      },
       "particle-2d": {
         "_value": false
       },
@@ -110,6 +113,7 @@
       "2d",
       "3d",
       "base",
+      "geometry-renderer",
       "gfx-webgl",
       "gfx-webgl2",
       "marionette",
