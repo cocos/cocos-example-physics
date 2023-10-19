@@ -27,6 +27,8 @@ export class PhysicsEnvCheck extends Component {
             title.string = physics.selector.id;
         }
 
+        if (physics.PhysicsSystem.PHYSICS_PHYSX) return;
+
         const name = this.node.name;
         if (name == "cannon-bullet") {
             this.physics = EPhysicsItem.CANNON_BULLET;
@@ -82,7 +84,7 @@ export class PhysicsEnvCheck extends Component {
                 if (!physics.PhysicsSystem.PHYSICS_BULLET) {
                     let lbCom = this.node.getChildByName('lb')!.getComponent(LabelComponent)!;
                     lbCom.enabled = true;
-                    lbCom.string = "测试此场景需要将物理模块设置为 bullet";
+                    lbCom.string = "测试此场景需要将物理模块设置为 bullet 或 physx";
                     let sprCom = this.getComponentInChildren(SpriteComponent)!;
                     sprCom.enabled = true;
                 }
