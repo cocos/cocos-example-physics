@@ -8587,7 +8587,7 @@
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@40ece",
       "__expectedType__": "cc.Mesh"
     },
-    "_convex": false,
+    "_convex": true,
     "_id": "6dsRdSFjdH/7ZzxyhPDwEU"
   },
   {
