@@ -228,6 +228,9 @@ export class CharacterControllerTest extends Component {
         if (PhysicsSystem.instance.raycastClosest(outRay, 0xffffffff, 1, true)) {
             const raycastClosestResult = PhysicsSystem.instance.raycastClosestResult;
             const collider = raycastClosestResult.collider;            
+            if (!this.isStair(collider.node)) {
+                return false;
+            }
             hitForwardNode = collider.node;
         }
 
@@ -242,6 +245,17 @@ export class CharacterControllerTest extends Component {
             }
         }
 
+        return false;
+    }
+
+    private isStair(node: Node) {
+        let parent = node.parent;
+        while (parent) {
+            if (parent.name === '台阶测试') {
+                return true;
+            }
+            parent = parent.parent;
+        }
         return false;
     }
 }
